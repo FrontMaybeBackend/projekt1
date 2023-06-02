@@ -1,0 +1,5 @@
+<h2>{{ tytul }}</h2>
+<ul>
+    <li *ngFor="let samochod of samochody">
+        {{ samochod.marka }} - {{ samochod.model }} (Rok produkcji: {{ samochod.rok }})
+    </li>
